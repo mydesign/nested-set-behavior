@@ -3,6 +3,7 @@ CREATE TABLE `category` (
   `lft` INT(10) UNSIGNED NOT NULL,
   `rgt` INT(10) UNSIGNED NOT NULL,
   `level` SMALLINT(5) UNSIGNED NOT NULL,
+  `title` VARCHAR(100),
   PRIMARY KEY (`id`),
   KEY `lft` (`lft`),
   KEY `rgt` (`rgt`),
